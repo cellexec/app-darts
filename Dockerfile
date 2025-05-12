@@ -40,3 +40,4 @@ COPY --from=builder /app/public ./public
 
 # Start Next.js
 CMD ["npm", "start"]
+
